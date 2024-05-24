@@ -51,7 +51,7 @@ except FileNotFoundError as identifier:
     messagebox.showerror('Error','Assets folder not found!')
 
 try:
-    f = open('username.txt', 'r')
+    f = open('/home/julian/code_Master/Last.fm-Discord-Rich-Presence/username.txt', 'r')
 except FileNotFoundError as identifier:
     messagebox.showerror('Error','File "username.txt" not found!')
 
